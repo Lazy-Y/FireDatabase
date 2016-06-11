@@ -48,6 +48,7 @@ class Charter: JSQMessagesViewController {
 //            }
 //            print(snapshot.value)
 //            var msg = snapshot.children.nextObject() as! FIRDataSnapshot
+//            print(snapshot.value)
             for msg in snapshot.children.allObjects as! [FIRDataSnapshot]{
                 if let dic = msg.value as? Dictionary<String, String>{
                     self.addMessage(dic["senderId"]!, text: dic["text"]!)
@@ -87,17 +88,26 @@ class Charter: JSQMessagesViewController {
         userIsTypingRef = typingIndicatorRef.child(senderId)
         isTyping = false
         
-        userIsTypingRef.observeEventType(.Value, withBlock:  { (snapshot) in
-            if let typing = snapshot.value as? Bool{
-                self.showTypingIndicator = typing
-                self.scrollToBottomAnimated(true)
+        typingIndicatorRef.observeEventType(.Value, withBlock:  { (snapshot) in
+//            print(snapshot.value)
+//            if let typing = snapshot.value as? Bool{
+//                self.showTypingIndicator = typing
+//                self.scrollToBottomAnimated(true)
+//            }
+            for user in snapshot.children.allObjects as! [FIRDataSnapshot]{
+                if user.key != self.senderId{
+                    if user.value as! Bool{
+                        self.isTyping = true
+                        break
+                    }
+                }
             }
         })
     }
     
     override func textViewDidChange(textView: UITextView) {
         super.textViewDidChange(textView)
-        print(textView.text)
+//        print(textView.text)
         isTyping = textView.text != ""
     }
 
