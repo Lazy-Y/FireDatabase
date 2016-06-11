@@ -79,8 +79,6 @@ class Charter: JSQMessagesViewController {
         set {
             // 3
             localTyping = newValue
-            showTypingIndicator = newValue
-            scrollToBottomAnimated(newValue)
             userIsTypingRef.setValue(newValue)
         }
     }
@@ -99,10 +97,11 @@ class Charter: JSQMessagesViewController {
             for user in snapshot.children.allObjects as! [FIRDataSnapshot]{
                 if user.key != self.senderId{
                     if user.value as! Bool{
-                        self.isTyping = true
+                        self.showTypingIndicator = true
+                        self.scrollToBottomAnimated(true)
                     }
                     else {
-                        self.isTyping = false
+                        self.showTypingIndicator = false
                     }
                 }
             }
