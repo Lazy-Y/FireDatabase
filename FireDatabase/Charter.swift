@@ -79,6 +79,8 @@ class Charter: JSQMessagesViewController {
         set {
             // 3
             localTyping = newValue
+            showTypingIndicator = newValue
+            scrollToBottomAnimated(newValue)
             userIsTypingRef.setValue(newValue)
         }
     }
@@ -98,7 +100,9 @@ class Charter: JSQMessagesViewController {
                 if user.key != self.senderId{
                     if user.value as! Bool{
                         self.isTyping = true
-                        break
+                    }
+                    else {
+                        self.isTyping = false
                     }
                 }
             }
