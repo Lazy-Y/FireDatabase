@@ -14,6 +14,21 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KRVideoPlayer-KRVideoPlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>KRVideoPlayer.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>MJRefresh.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-FireDatabase.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,12 +42,27 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3967E9DD4CDA09EE0EC8DFE5F783AB5B</key>
+		<key>5723570A3F60701E3F409DA9372CF88B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>59CDDB315DD2B098E0CD9ED56B026F4B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>6847254D016329D4A531D34ED2B6DF81</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>9A4B8B630E8B1651FC947DD52038A14D</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EC375C393EF26BE5FCD989A55C44D81D</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -15,6 +15,10 @@
 		FD0F0D521D04FB1A00BFB03E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0F0D501D04FB1A00BFB03E /* LaunchScreen.storyboard */; };
 		FD0F0D5A1D0500F600BFB03E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FD0F0D591D0500F600BFB03E /* GoogleService-Info.plist */; };
 		FD150D791D0A80F100BACDBE /* Charter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD150D781D0A80F100BACDBE /* Charter.swift */; };
+		FDC100FC1D0CD45400406AD5 /* ChaterExample.txt in Resources */ = {isa = PBXBuildFile; fileRef = FDC100FB1D0CD45400406AD5 /* ChaterExample.txt */; };
+		FDC100FE1D0CE9C100406AD5 /* hello.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FDC100FD1D0CE9C100406AD5 /* hello.mp3 */; };
+		FDC101001D0CEAF700406AD5 /* sherry.m4v in Resources */ = {isa = PBXBuildFile; fileRef = FDC100FF1D0CEAD800406AD5 /* sherry.m4v */; };
+		FDC1011C1D0E5B7100406AD5 /* Assets in Resources */ = {isa = PBXBuildFile; fileRef = FDC1011B1D0E5B7100406AD5 /* Assets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		FD0F0D531D04FB1A00BFB03E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FD0F0D591D0500F600BFB03E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		FD150D781D0A80F100BACDBE /* Charter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Charter.swift; sourceTree = "<group>"; };
+		FDC100FB1D0CD45400406AD5 /* ChaterExample.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ChaterExample.txt; sourceTree = "<group>"; };
+		FDC100FD1D0CE9C100406AD5 /* hello.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hello.mp3; sourceTree = "<group>"; };
+		FDC100FF1D0CEAD800406AD5 /* sherry.m4v */ = {isa = PBXFileReference; lastKnownFileType = file; path = sherry.m4v; sourceTree = "<group>"; };
+		FDC1011B1D0E5B7100406AD5 /* Assets */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Assets; path = Pods/KRVideoPlayer/Pod/Assets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +64,7 @@
 		FD0F0D3B1D04FB1A00BFB03E = {
 			isa = PBXGroup;
 			children = (
+				FDC1011B1D0E5B7100406AD5 /* Assets */,
 				FD0F0D461D04FB1A00BFB03E /* FireDatabase */,
 				FD0F0D451D04FB1A00BFB03E /* Products */,
 				34A64112E37AC9CC11B9EB14 /* Pods */,
@@ -77,11 +86,14 @@
 				FD0F0D471D04FB1A00BFB03E /* AppDelegate.swift */,
 				FD0F0D491D04FB1A00BFB03E /* ViewController.swift */,
 				FD150D781D0A80F100BACDBE /* Charter.swift */,
+				FDC100FB1D0CD45400406AD5 /* ChaterExample.txt */,
 				FD0F0D4B1D04FB1A00BFB03E /* Main.storyboard */,
 				FD0F0D4E1D04FB1A00BFB03E /* Assets.xcassets */,
 				FD0F0D501D04FB1A00BFB03E /* LaunchScreen.storyboard */,
+				FDC100FD1D0CE9C100406AD5 /* hello.mp3 */,
 				FD0F0D531D04FB1A00BFB03E /* Info.plist */,
 				FD0F0D591D0500F600BFB03E /* GoogleService-Info.plist */,
+				FDC100FF1D0CEAD800406AD5 /* sherry.m4v */,
 			);
 			path = FireDatabase;
 			sourceTree = "<group>";
@@ -156,9 +168,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC1011C1D0E5B7100406AD5 /* Assets in Resources */,
+				FDC101001D0CEAF700406AD5 /* sherry.m4v in Resources */,
+				FDC100FC1D0CD45400406AD5 /* ChaterExample.txt in Resources */,
 				FD0F0D521D04FB1A00BFB03E /* LaunchScreen.storyboard in Resources */,
 				FD0F0D4F1D04FB1A00BFB03E /* Assets.xcassets in Resources */,
 				FD0F0D4D1D04FB1A00BFB03E /* Main.storyboard in Resources */,
+				FDC100FE1D0CE9C100406AD5 /* hello.mp3 in Resources */,
 				FD0F0D5A1D0500F600BFB03E /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

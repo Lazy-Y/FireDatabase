@@ -35,12 +35,16 @@ PODS:
   - JSQMessagesViewController (7.3.0):
     - JSQSystemSoundPlayer (~> 2.0.1)
   - JSQSystemSoundPlayer (2.0.1)
+  - KRVideoPlayer (1.0.1)
+  - MJRefresh (3.1.0)
 
 DEPENDENCIES:
   - Firebase/Auth
   - Firebase/Database
   - Firebase/Storage
   - JSQMessagesViewController
+  - KRVideoPlayer
+  - MJRefresh
 
 SPEC CHECKSUMS:
   Firebase: 6d4012da1598732a2b43f16d8355eca90f94ed59
@@ -55,7 +59,9 @@ SPEC CHECKSUMS:
   GoogleUtilities: 56c5ac05b7aa5dc417a1bb85221a9516e04d7032
   JSQMessagesViewController: aa79a81b21387430d66aa657e5d1c5494b0ba307
   JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  KRVideoPlayer: 08918da1b99cae35fd4c15b2ec2b49358d4c985f
+  MJRefresh: 743e6404967d1c2c688472ea3ecfde247d872db4
 
-PODFILE CHECKSUM: c9e45e2497621c879aa306c512a0c3eb7417a97b
+PODFILE CHECKSUM: 9b1775ae773f77cf0a17ad34801d8a667cc7ad23
 
 COCOAPODS: 1.0.0
